@@ -1,6 +1,6 @@
 # TP-4: Payment Gateway Signal (Bonus)
 
-**Status:** deferred  
+**Status:** done  
 **Phase:** 2  
 **Depends on:** TP-3
 
@@ -10,9 +10,10 @@ Extend prompt to handle `payment_gateway` signals with distinct resolution paths
 
 ## Acceptance Criteria
 
-- [ ] System prompt includes payment-specific guidance when `payment_gateway` source present
-- [ ] Unit test fixture with payment signal; actions mention payment-related steps
+- [x] System prompt includes payment-specific guidance when `payment_gateway` source present
+- [x] Unit test fixture with payment signal; actions mention payment-related steps
 
 ## Completion Evidence
 
-(pending)
+- `PAYMENT_GATEWAY_PROMPT` appended in `build_system_prompt()` when source detected
+- `tests/unit/test_prompt.py::test_build_system_prompt_with_payment_gateway`

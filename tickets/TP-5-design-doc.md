@@ -1,6 +1,6 @@
 # TP-5: Scaling Design Doc (Bonus)
 
-**Status:** deferred  
+**Status:** done  
 **Phase:** 2  
 **Depends on:** TP-3
 
@@ -10,8 +10,8 @@ Document how to scale FlockSRE to 500 concurrent distressed orders with p99 LLM 
 
 ## Acceptance Criteria
 
-- [ ] `DESIGN.md` covers async workers, queue, idempotency, circuit breaker, observability
+- [x] `DESIGN.md` covers async workers, queue, idempotency, circuit breaker, observability
 
 ## Completion Evidence
 
-(pending)
+- `DESIGN.md` — queue architecture, worker sizing (~80 workers), idempotency, circuit breaker, observability

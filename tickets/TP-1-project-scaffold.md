@@ -1,6 +1,6 @@
 # TP-1: Project Scaffold
 
-**Status:** pending  
+**Status:** done  
 **Phase:** 1
 
 ## Goal
@@ -9,12 +9,13 @@ Initialize the FlockSRE Python/FastAPI project with dependencies, env config, an
 
 ## Acceptance Criteria
 
-- [ ] `git init` with `.gitignore` covering Python artifacts, `.env`, `node_modules/`
-- [ ] `requirements.txt` with FastAPI, uvicorn, pydantic, anthropic, pytest, httpx
-- [ ] FastAPI app shell in `app/main.py` with health or root route
-- [ ] `.env.example` documenting `ANTHROPIC_API_KEY`
-- [ ] README skeleton with run instructions placeholder
+- [x] `git init` with `.gitignore` covering Python artifacts, `.env`, `node_modules/`
+- [x] `requirements.txt` with FastAPI, uvicorn, pydantic, anthropic, pytest, httpx
+- [x] FastAPI app shell in `app/main.py` with health or root route
+- [x] `.env.example` documenting `ANTHROPIC_API_KEY`
+- [x] README skeleton with run instructions placeholder
 
 ## Completion Evidence
 
-(pending)
+- `app/main.py` with `/health`
+- `requirements.txt`, `.env.example`, `README.md`, `pytest.ini`
